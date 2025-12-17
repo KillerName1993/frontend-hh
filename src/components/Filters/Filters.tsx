@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { setCity, addSkill, removeSkill } from '../../store/vacanciesSlice';
 import type { RootState } from '../../store';
-import styles from './Filters.module.css';
+import styles from './Filters.module.css'; // Импорт стилей
 
 const cities = [
    { value: '', label: 'Все города' },
