@@ -1,0 +1,86 @@
+/* Основной контейнер */
+.container {
+   position: relative;
+   width: 1440px;
+   height: 100%;
+}
+
+/* Заголовок */
+.titleContainer {
+   position: absolute;
+   width: 366px;
+   height: 66px;
+   top: 84px;
+   left: 220px;
+   display: flex;
+   flex-direction: column;
+   gap: 4px;
+}
+
+.mainTitle {
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 135%;
+   color: #0F0F10;
+   margin: 0;
+}
+
+.subtitle {
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 135%;
+   color: rgba(15, 15, 16, 0.5);
+   margin: 0;
+}
+
+/* Фильтры */
+.filtersContainer {
+   position: absolute;
+   top: 198px;
+   left: 220px;
+   width: 317px;
+}
+
+/* Контейнер для вакансий и пагинации */
+.vacanciesContainer {
+   position: absolute;
+   width: 659px;
+   height: 2672px;
+   /* Для 10 карточек */
+   top: 198px;
+   left: 561px;
+   display: flex;
+   flex-direction: column;
+   gap: 24px;
+}
+
+/* Контейнер для карточек */
+.cardsContainer {
+   width: 659px;
+   height: 2624px;
+   /* 10 карточек × 248px + 9 отступов × 16px */
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+}
+
+/* Лоадер */
+.loaderContainer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+}
+
+/* Пагинация */
+.paginationContainer {
+   width: 410px;
+   height: 32px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 5px;
+   margin: 0 auto;
+}
