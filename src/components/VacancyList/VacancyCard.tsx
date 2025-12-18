@@ -27,6 +27,7 @@ export const VacancyCard = ({ vacancy }: VacancyCardProps) => {
       const formatMap: Record<string, { background: string; text: string }> = {
          'Удаленная работа': { background: '#4263EB', text: 'white' },
          'remote': { background: '#4263EB', text: 'white' },
+         'Полный день': { background: '#EAEBED', text: '#5C5C5C' },
          'Офис': { background: '#EAEBED', text: '#5C5C5C' },
          'fullDay': { background: '#EAEBED', text: '#5C5C5C' },
          'Гибрид': { background: '#0F0F10', text: 'white' },
@@ -41,6 +42,7 @@ export const VacancyCard = ({ vacancy }: VacancyCardProps) => {
       const textMap: Record<string, string> = {
          'Удаленная работа': 'МОЖНО УДАЛЁННО',
          'remote': 'МОЖНО УДАЛЁННО',
+         'Полный день': 'ОФИС',
          'Офис': 'ОФИС',
          'fullDay': 'ОФИС',
          'Гибрид': 'ГИБРИД',
